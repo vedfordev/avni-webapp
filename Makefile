@@ -6,7 +6,7 @@ check-project-versions:
 	npm search avni-health-modules
 
 deps:
-	yarn install
+	yarn install --ignore-optional
 
 start:
 	yarn start
